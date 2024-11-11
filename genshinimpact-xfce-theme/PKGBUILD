@@ -1,0 +1,29 @@
+
+pkgname=genshinimpact-xfce-theme
+pkgver=24.04
+pkgrel=05
+pkgdesc="XFCE desktop themes configurations "
+arch=('any')
+license=('GPL3')
+makedepends=()
+depends=()
+conflicts=()
+provides=("${pkgname}")
+options=(!strip !emptydirs)
+
+prepare() {
+	cp -af ../files/. ${srcdir}
+}
+
+package() {
+	local _configdir=${pkgdir}/etc/skel/.config
+	local _wallsdir=${pkgdir}/usr/share/backgrounds
+	mkdir -p "$_configdir" && mkdir -p "$_wallsdir" 
+	
+	# Copy Configs
+	cp -r ${srcdir}/xfce-themes 			"$_configdir"
+	cp -r ${srcdir}/walls        			"$_wallsdir"
+
+	
+
+}
