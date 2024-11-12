@@ -1,7 +1,7 @@
 
 pkgname=andrea-xfce-theme
-pkgver=24.11
-pkgrel=06
+pkgver=24.12
+pkgrel=01
 pkgdesc="XFCE desktop themes configurations "
 arch=('any')
 license=('GPL3')
