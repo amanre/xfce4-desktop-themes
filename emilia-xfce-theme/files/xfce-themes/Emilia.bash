@@ -35,7 +35,7 @@ change_dock() {
 }
 
 # Geany
-geany_colors='solarized-dark.conf'
+geany_colors='delt-dark.conf'
 geany_font='JetBrains Mono 11'
 
 # Appearance
