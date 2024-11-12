@@ -1,7 +1,7 @@
 
-pkgname=emilia-xfce-theme
-pkgver=24.12
-pkgrel=01
+pkgname=northern-light-xfce-theme
+pkgver=24.10
+pkgrel=02
 pkgdesc="XFCE desktop themes configurations "
 arch=('any')
 license=('GPL3')
@@ -18,12 +18,12 @@ prepare() {
 package() {
 	local _configdir=${pkgdir}/etc/skel/.config
 	local _wallsdir=${pkgdir}/usr/share/backgrounds
-	mkdir -p "$_configdir" && mkdir -p "$_wallsdir"
-
+	mkdir -p "$_configdir" && mkdir -p "$_wallsdir" 
+	
 	# Copy Configs
 	cp -r ${srcdir}/xfce-themes 			"$_configdir"
 	cp -r ${srcdir}/walls        			"$_wallsdir"
 
-
+	
 
 }

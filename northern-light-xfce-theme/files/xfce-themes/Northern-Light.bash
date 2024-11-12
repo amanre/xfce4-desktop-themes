@@ -1,8 +1,8 @@
 # Wallpaper
-wallpaper='/usr/share/backgrounds/walls/wall-09.jpg'
+wallpaper='/usr/share/backgrounds/walls/nothern-lights.jpg'
 
 # Terminal
-wal -i /usr/share/backgrounds/walls/wall-09.jpg
+wal -i /usr/share/backgrounds/walls/nothern-lights.jpg
 /usr/share/amos/pywal-conky/refresh_conky.sh
 terminal_font_name='Source Code Pro '
 terminal_font_size='13'
@@ -16,17 +16,17 @@ change_dock() {
 		current-workspace-only=false
 		dock-items=['xfce-settings-manager.dockitem', 'Alacritty.dockitem', 'thunar.dockitem', 'firefox.dockitem', 'geany.dockitem']
 		hide-delay=0
-		hide-mode='intelligent'
-		icon-size=40
+		hide-mode='autohide'
+		icon-size=30
 		items-alignment='center'
 		lock-items=true
 		monitor=''
 		offset=0
 		pinned-only=false
-		position='bottom'
+		position='left'
 		pressure-reveal=false
 		show-dock-item=false
-		theme='mcOS-BS-iMacM1- DarkBlue'
+		theme='mcOS-BS-NewDynamic5'
 		tooltips-enabled=true
 		unhide-delay=0
 		zoom-enabled=true
@@ -35,12 +35,12 @@ change_dock() {
 }
 
 # Geany
-geany_colors='solarized-dark.conf'
-geany_font='JetBrains Mono 11'
+#geany_colors=catppucin.conf'
+#geany_font='JetBrains Mono 10'
 
 # Appearance
-xfwm_theme='Mabox-Cyberpunk-Neon'
+xfwm_theme='NewSur-dark'
 gtk_font='Noto Sans 13'
-gtk_theme='Mabox-Cyberpunk-Neon'
-icon_theme='Magna-Dark-Icons'
-cursor_theme='Catppuccin-Sky-Cursors'
+gtk_theme='NewSur-dark'
+icon_theme='Tela-circle-manjaro-dark'
+cursor_theme='Catppuccin-Flamingo-Cursors'
