@@ -35,8 +35,8 @@ change_dock() {
 }
 
 # Geany
-geany_colors='adapta.conf'
-geany_font='JetBrains Mono 10'
+geany_colors='delt-dark.conf'
+geany_font='JetBrains Mono 11'
 
 # Appearance
 xfwm_theme='Darkaneon Purple'
