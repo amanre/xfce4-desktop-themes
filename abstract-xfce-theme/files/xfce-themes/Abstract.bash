@@ -35,8 +35,8 @@ change_dock() {
 }
 
 # Geany
-#geany_colors=catppucin.conf'
-#geany_font='JetBrains Mono 10'
+geany_colors='kurayami.conf'
+geany_font='JetBrains Mono 11'
 
 # Appearance
 xfwm_theme='Gruvbox-Dark-BL'
