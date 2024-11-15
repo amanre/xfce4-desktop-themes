@@ -35,7 +35,7 @@ change_dock() {
 }
 
 # Geany
-geany_colors=catppucin.conf'
+geany_colors='manhatten.conf'
 geany_font='JetBrains Mono 10'
 
 # Appearance
