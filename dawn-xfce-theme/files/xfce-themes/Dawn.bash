@@ -35,8 +35,8 @@ change_dock() {
 }
 
 # Geany
-#geany_colors=catppucin.conf'
-#geany_font='JetBrains Mono 10'
+geany_colors='inkpot.conf'
+geany_font='JetBrains Mono 10'
 
 # Appearance
 xfwm_theme='Dracula-slim'
