@@ -35,12 +35,12 @@ change_dock() {
 }
 
 # Geany
-geany_colors='adapta.conf'
+geany_colors='inkpot.conf'
 geany_font='JetBrains Mono 10'
 
 # Appearance
 xfwm_theme='Gruvbox-Dark-BL'
 gtk_font='Noto Sans 13'
-gtk_theme='TGruvbox-Dark-BL'
+gtk_theme='Gruvbox-Dark-BL'
 icon_theme='elementary'
 cursor_theme='Catppuccin-Peach-Cursors'
