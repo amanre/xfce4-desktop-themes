@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-destination="/home/amanre/MYDOTFILES/dots_repo/x86_64/"
+destination="/home/amanre/amanre/amanre_repo/x86_64/"
 
 			makepkg -f
 

@@ -1,6 +1,6 @@
 
 pkgname=expanse-xfce-theme
-pkgver=25.03
+pkgver=25.04
 pkgrel=01
 pkgdesc="XFCE desktop themes configurations "
 arch=('any')

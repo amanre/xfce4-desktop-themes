@@ -17,7 +17,7 @@ change_dock() {
 		dock-items=['xfce-settings-manager.dockitem', 'Alacritty.dockitem', 'thunar.dockitem', 'firefox.dockitem', 'geany.dockitem']
 		hide-delay=0
 		hide-mode='intelligent'
-		icon-size=42
+		icon-size=30
 		items-alignment='center'
 		lock-items=true
 		monitor=''
@@ -42,5 +42,5 @@ geany_font='JetBrains Mono 11'
 xfwm_theme='Solarized-BLACK-Orange'
 gtk_font='Noto Sans 13'
 gtk_theme='Solarized-BLACK-Orange'
-icon_theme='Catppuccin-Mocha'
+icon_theme='Tela-circle-orange-dark'
 cursor_theme='Catppuccin-Yellow-Cursors'

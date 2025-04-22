@@ -1,7 +1,7 @@
 
 pkgname=cutecat-xfce-theme
 pkgver=24.05
-pkgrel=01
+pkgrel=02
 pkgdesc="XFCE desktop themes configurations "
 arch=('any')
 license=('GPL3')

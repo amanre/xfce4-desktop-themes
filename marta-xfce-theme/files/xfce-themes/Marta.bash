@@ -17,7 +17,7 @@ change_dock() {
 		dock-items=['xfce-settings-manager.dockitem', 'Alacritty.dockitem', 'thunar.dockitem', 'firefox.dockitem', 'geany.dockitem']
 		hide-delay=0
 		hide-mode='intelligent'
-		icon-size=42
+		icon-size=30
 		items-alignment='center'
 		lock-items=true
 		monitor=''
