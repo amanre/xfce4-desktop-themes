@@ -1,7 +1,7 @@
 
-pkgname=expanse-xfce-theme
+pkgname=sunset-xfce-theme
 pkgver=25.05
-pkgrel=01
+pkgrel=03
 pkgdesc="XFCE desktop themes configurations "
 arch=('any')
 license=('GPL3')
